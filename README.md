@@ -5,7 +5,7 @@
 
 simple online game 
 
-[sea battle repo](http://github.com/alexeinemkov/seaBattle "sea battle")
+[sea battle repository](http://github.com/alexeinemkov/seaBattle "sea battle")
 
 [sea battle game](http://alexeinemkov.github.io/seaBattle "sea battle")
 
