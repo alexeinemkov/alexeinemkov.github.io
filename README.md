@@ -25,6 +25,8 @@ examples blend file to site
 
 [blender3d repository](http://github.com/alexeinemkov/blender3d "blender3d")
 
+[falling text app](https://alexeinemkov.github.io/blender3d/projects/fallingText_app/index.html)
+
 ### Links
 
 [github.io](https://alexeinemkov.github.io "github.io") - in test mode
