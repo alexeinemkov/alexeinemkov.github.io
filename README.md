@@ -1,4 +1,4 @@
-# alexeinemkov projects
+# projects
 
 ### Sea Battle
 *html+css+js+jquery*
