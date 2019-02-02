@@ -1,0 +1,49 @@
+html,body{ 
+    font-family: 'Ubuntu Mono', monospace;
+    width: 100%;
+    height: 100%;
+    background-color: #ecf0f1;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+#links {
+    display: block;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*------------------------FONTS-----------------------------*/
+/*красивый курсив как будто не слитно почти прописью*/
+.classFont1 {
+    font-family: 'Merienda', cursive;
+}
+/*забавный веселый курсив почти слитно почти прописью */
+.classFont2 {
+    font-family: 'Indie Flower', cursive;
+}
+/*красивый жирный курсив прописью*/
+.classFont3 {
+    font-family: 'Pacifico', cursive;
+}
+/*забавный веселый маленький шрифт курсив почти слитно почти прописью но печатными*/
+.classFont4 {
+    font-family: 'Gaegu', cursive;
+}
+/*забавный веселый курсив почти слитно почти прописью наклон влево как правша писал*/
+.classFont5 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+/*красивый курсив прописью слитно красиво для надписей*/
+.classFont6 {
+    font-family: 'Satisfy', cursive;
+}
+/*красиво печатными как человек писал*/
+.classFont7 {
+    font-family: 'Poor Story', cursive;
+}
+/*печатный шрифт диджитал квадратные буквы интересно*/
+.classFont8 {
+    font-family: 'Orbitron', sans-serif;
+}
