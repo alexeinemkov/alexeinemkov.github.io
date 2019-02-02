@@ -1,115 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>counter</title>
-	<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet"> 
-	<style type="text/css">
-		body{
-			margin: 0;
-			padding: 0;
-			text-align: center;
-			background: #3f4f3f;
-			font-family: 'Black Ops One', cursive;
+    <title>AlexeiN</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-language" content="ru" >
+    <meta name="Author" content="AlexeiN" >
+    <meta name="Keywords" content="..." >
+    <meta name="Description" content="...">
 
+    <link href="https://fonts.googleapis.com/css?family=Gaegu|Gloria+Hallelujah|Indie+Flower|Merienda|Orbitron|Pacifico|Poor+Story|Satisfy|Ubuntu+Mono" rel="stylesheet"> 
 
-		}
-		.counterBody {
-			color:#fff;
-			padding-top: 20%;
-			font-size:6em;
-			text-indent: 0px;
-			
-		}
-		.counterBody div div{
-			display: inline-block;
-			width:2em;
-		}
-		.counterBody button{
-			font-size: 0.2em;
-			width:100px;
-			height: 50px;
-			padding: 0;
-			margin: 0;
-		}
-	</style>
-</head>
-<body>
-	<div class="counterBody">
-		<div>
-			<div id="minuts">00</div>:<div id="seconds">00</div>:<div id="mseconds">00</div>
-		</div>
-		<button id="startStop" onclick="counterStartStop()">START</button>
-		<button id="reset" onclick="counterReset()">RESET</button>
-	</div>
-	<script>
-		'use strict';
-		function makeCounter() {
-		    function counter() {
-		       return counter.currentCount++;
-		    };
-		    counter.currentCount = 1;
-		   	
-		    return counter;
-		}
-		   
-		var mseconds = makeCounter();
-		var seconds = makeCounter();
-		var minuts = makeCounter();
-		var timerId;
-		var flagCounterRun=false;
-		var innerMinuts = document.getElementById('minuts');
-		var innerSeconds = document.getElementById('seconds');
-		var innerMseconds = document.getElementById('mseconds');
-		var nameButtonStartStop = document.getElementById('startStop');
-		function printCounter(){
-			var bufMs=mseconds();
-			bufMs<10?(bufMs='0'+bufMs.toString()):(bufMs=bufMs);
-			//console.log(bufMs);
-			if(bufMs==99){
-				innerMseconds.innerHTML='00';
-				mseconds.currentCount = 0;
-				var bufSec=seconds();
-				bufSec<10?(bufSec='0'+bufSec.toString()):(bufSec=bufSec);
-				if(bufSec>59){
-					innerSeconds.innerHTML='00';
-					seconds.currentCount = 1;
-					innerMinuts.innerHTML=minuts();
-				}
-				else{
-					innerSeconds.innerHTML=bufSec;
-				}
-			}
-			else {
-				innerMseconds.innerHTML=bufMs;
-			}
-		}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-		function counterStartStop(){
-			if (flagCounterRun) {
-				clearInterval(timerId);
-				flagCounterRun=false;
-				nameButtonStartStop.innerHTML='START';
-			}
-			else {
-				flagCounterRun=true;
-				timerId = setInterval(printCounter, 10);
-				nameButtonStartStop.innerHTML='STOP';
-			}
-		}
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-		function counterReset() {
-			clearInterval(timerId);
-			flagCounterRun=false;
-			minuts.currentCount = 1;
-			seconds.currentCount = 1;
-			mseconds.currentCount = 1;
-			innerMinuts.innerHTML='00';
-			innerSeconds.innerHTML='00';
-			innerMseconds.innerHTML='00';
-			nameButtonStartStop.innerHTML='START';
-		}
+    <link rel="icon" href="assets/icon.png" type="image/png">
 
-	</script>
-</body>
-</html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head><body>
+<div class="container">
+<!--<img class="img-fluid" src="http://alexein.ru/works/assets/avatar.jpg" alt="ooops... no image" />-->
+        <h2>Hello.</h2>
+        <p>I'm 27-years-old. I live in Russia. I'm graduated at Aviation technical university (USATU) in Electronics and nanoelectronics. I have experience with industrial robotics projects, digital projects and I really love my job. In short, that's me.
+        </p><p>
+            <h3>My skills</h3> robotics, automation, electronics design and programming, 3D Design, 3D programming, <span>HTML, CSS, JS, JQ, MySQL, PHP, yii, JAVA, Python, ...</span></p>
+        <span id="links"><a href="https://t.me/AlexeiNemkov">telegram</a>
+        <a href="mailto:alexei1711@yandex.ru">email</a>
+        <a href="https://github.com/alexeinemkov">github</a>
+        <p>&copy;Alexei Nemkov</p></span></div>
+    <script>
+     
+    </script>
+</body></html>
