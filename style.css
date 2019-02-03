@@ -5,6 +5,7 @@ html,body{
     background-color:rgba(0,0,0, 1);
     color:#f0f0f0;
     text-shadow: red 0 0 10px;
+    box-sizing:border-box;
     }
 
 header,section,footer{
@@ -27,6 +28,7 @@ footer {
     padding-top:30%;
     background-position:center center ;
     background-size:contain;
+    background-repeat: no-repeat;
 }
 /*------------------------FONTS-----------------------------*/
 /*красивый курсив как будто не слитно почти прописью*/
