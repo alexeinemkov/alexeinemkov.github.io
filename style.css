@@ -10,7 +10,7 @@ html,body{
 header,section,footer{
     display:block ;
     min-height:200px;
-    padding-top:10px;
+    padding-top:60px;
     padding-bottom:10px;
 }
 a{
@@ -20,13 +20,13 @@ a{
 }
 
 footer {
-    height:450px;
+    min-height:450px;
     background-image:url("https://alexeinemkov.github.io/images/tech-3041437_1280.jpg");
     font-family: 'Orbitron', sans-serif;
     text-align: center;
-    padding-top:210px;
+    padding-top:30%;
     background-position:center center ;
-    background-size:cover;
+    background-size:contain;
 }
 /*------------------------FONTS-----------------------------*/
 /*красивый курсив как будто не слитно почти прописью*/
