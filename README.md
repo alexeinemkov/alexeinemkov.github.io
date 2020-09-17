@@ -7,7 +7,7 @@ Here are some projects I've done or are doing
 
 A parking system IoT project, developed in Python over multiple Raspberry PIs
 
-My first "normal" remote work and one of my favorite.
+My first "normal" remote work and one of my favorite :)
 
 [Simple Park](https://simplepark.com.au/ "Simple Park")
 
