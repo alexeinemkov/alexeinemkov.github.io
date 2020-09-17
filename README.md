@@ -16,6 +16,13 @@ My first "normal" remote work and one of my favorite.
 
 Server for monitoring and collecting vending water machines data. 
 
+### flask test 1
+*Python, Flask, SQLAlchemy, SQLite, Jinja2, WTForms, jQuery*
+
+Simple flask app. It was test task somewhere
+
+[Test flask app](https://github.com/alexeinemkov/flask_test_1 "test flask app")
+
 ### Sea Battle
 *html, css, js, jquery*
 
